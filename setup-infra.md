@@ -63,7 +63,7 @@ eksctl version
 ```bash
 eksctl create cluster --name=EKS-1 \
                       --region=us-east-1 \
-                      --zones=us-east-2,us-west-1 \
+                      --zones=us-east-1a,us-east-1b \
                       --without-nodegroup
 
 eksctl utils associate-iam-oidc-provider \
